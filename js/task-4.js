@@ -12,5 +12,5 @@ form.addEventListener('submit', event => {
     password,
   };
   console.log(formData);
-  form.requestFullscreen();
+  form.reset();
 });
